@@ -1,0 +1,9 @@
+<div class="card">
+  <img class="card-img-top" [src]="person.avatar" alt="Avatar">
+  <div class="card-body">
+    <h5 class="card-title" (click)="onEdit()">{{ person.name }}</h5>
+    <p class="card-text">Email: {{ person.email }}</p>
+    <p class="card-text">Age: {{ person.dob | calculateAge }}</p>
+    <p class="card-text">Country: {{ person.country }}</p>
+  </div>
+</div>
