@@ -9,7 +9,7 @@ export class CardViewComponent {
   @Input() person: any;
   @Output() edit: EventEmitter<any> = new EventEmitter<any>();
 
-  constructor() {}
+  constructor() { }
   onEdit(): void {
     this.edit.emit(this.person);
   }

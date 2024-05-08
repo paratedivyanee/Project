@@ -3,7 +3,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'calculateAge',
 })
-
 export class CalculateAgePipe implements PipeTransform {
   transform(value: any): number | null {
     if (!value) return null; // Check if value is null and return null

@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class PersonFormComponent implements OnInit {
   person: any = {};
 
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
