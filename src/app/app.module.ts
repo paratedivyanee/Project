@@ -25,4 +25,4 @@ import { FilterByNamePipe } from './filter-by-name.pipe';
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

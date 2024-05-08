@@ -8,10 +8,9 @@ describe('PersonFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PersonFormComponent]
-    })
-    .compileComponents();
-    
+      declarations: [PersonFormComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(PersonFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

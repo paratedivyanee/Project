@@ -75,9 +75,9 @@ export class PersonListComponent implements OnInit {
     },
   ];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
   editPerson(person: any): void {
     this.router.navigate(['/update', person.name]);

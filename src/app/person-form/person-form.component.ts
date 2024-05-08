@@ -12,11 +12,8 @@ export class PersonFormComponent implements OnInit {
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit(): void {
-    // Retrieve person details from route parameters
     this.route.params.subscribe((params) => {
       const name = params['name'];
-      // Here you would typically fetch person details from a service based on the name
-      // For demonstration, I'm just setting some dummy data
       this.person = {
         name: name,
         email: 'example@example.com',

@@ -3,23 +3,23 @@
     <form (ngSubmit)="onSubmit()">
         <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" class="form-control" id="name" name="name" [(ngModel)]="person.name" required>
+            <input type="text" class="form-control" id="name" name="name" [(ngModel)]="person.name" required />
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="person.email" required>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="person.email" required />
         </div>
         <div class="form-group">
             <label for="dob">Date of Birth:</label>
-            <input type="date" class="form-control" id="dob" name="dob" [(ngModel)]="person.dob" required>
+            <input type="date" class="form-control" id="dob" name="dob" [(ngModel)]="person.dob" required />
         </div>
         <div class="form-group">
             <label for="avatar">Avatar:</label>
-            <input type="text" class="form-control" id="avatar" name="avatar" [(ngModel)]="person.avatar">
+            <input type="text" class="form-control" id="avatar" name="avatar" [(ngModel)]="person.avatar" />
         </div>
         <div class="form-group">
             <label for="country">Country:</label>
-            <input type="text" class="form-control" id="country" name="country" [(ngModel)]="person.country">
+            <input type="text" class="form-control" id="country" name="country" [(ngModel)]="person.country" />
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
